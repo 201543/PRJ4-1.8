@@ -5,18 +5,51 @@
 
 
 /* Changing the main font and background colour */
-
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-color: #595959;
 	background-color: #00000;
+	margin:0px;
+	padding: 0px;
+	border: 0px;
 }
 
+
+.container-fluid {
+	background-size: cover;
+}
 .section-story{
-	margin-top: 20px;
+	margin-top: 40px;
 }
+/*Story header  */
 
+.Storyheader{font-family: 'Libre Franklin', sans-serif;
+	font-color: #595959;
+	background-color: #E6E6FA;
+	padding: 12px;
+	margin: 0px;
 
+}
+/* body of story   */
+.storybody{
+	font-family:'Montserrat', sans-serif;
+	Font-color:#595959;
+	background-color: #E6E6FA; 
+	padding: 10px;
+	margin-top: 0px;
+	
+	
+}
+/*button learn more */
+.btn-outline {
+  font-family:'Libre Franklin', sans-serif;
+  color: #595959;
+  background-color: #ffffff;
+  border-color: #595959;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  margin-top: 40px;
+}
 /* Changing the background colour for the header */
 
 header {
