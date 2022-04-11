@@ -15,8 +15,8 @@ body {
 }
 
 .kushi-logo {
-	margin-top: -30px;
-	margin-bottom: -30px;
+	margin-top: -35px;
+	margin-bottom: -40px;
 }
 
 .container-fluid {
@@ -130,7 +130,6 @@ footer a:hover {
 .hands-in-lavender {
 	border-radius: 50%;
 	margin-left: 80px;
-	overflow:
 }
 
 .header-story {
@@ -139,7 +138,7 @@ footer a:hover {
 
 .paragraph-2-left {
 	padding-right: 40px;
-	padding-top: 200px;
+	padding-top: 150px;
 	line-height: 1.5;
 }
 
@@ -152,4 +151,10 @@ footer a:hover {
 .header-team {
 	background: none !important;
 	margin-left: 60px
+}
+
+.team-portrait {
+	border-radius: 40%;
+	border: solid 15px;
+	border-color: #E6E6FA;
 }
