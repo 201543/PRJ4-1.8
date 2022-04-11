@@ -108,6 +108,7 @@ footer a:hover {
 
 .holding-lavender {
 	border-radius: 50%;
+	margin-right: 80px;
 }
 
 .section-1 {
@@ -115,7 +116,7 @@ footer a:hover {
 }
 
 .section-2 {
-	margin-top: 50px;
+	margin-top: -90px;
 }
 
 .section-3 {
@@ -127,4 +128,22 @@ footer a:hover {
 }
 
 .hands-in-lavender {
+	border-radius: 50%;
+	margin-left: 80px;
+}
+
+.header-story {
+	margin-top: 50px;
+}
+
+.paragraph-2-left {
+	padding-right: 40px;
+	padding-top: 200px;
+	line-height: 1.5;
+}
+
+.paragraph-1-right {
+	padding-left: 40px;
+	padding-top: 80px;
+	line-height: 1.5;
 }
