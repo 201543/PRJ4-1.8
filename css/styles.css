@@ -130,6 +130,7 @@ footer a:hover {
 .hands-in-lavender {
 	border-radius: 50%;
 	margin-left: 80px;
+	overflow:
 }
 
 .header-story {
@@ -146,4 +147,9 @@ footer a:hover {
 	padding-left: 40px;
 	padding-top: 80px;
 	line-height: 1.5;
+}
+
+.header-team {
+	background: none !important;
+	margin-left: 60px
 }
