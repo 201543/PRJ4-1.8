@@ -1,10 +1,10 @@
 /* Importing a Google Font */
-
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,700;0,800;1,700;1,800&family=Montserrat:ital,wght@0,200;0,600;0,700;1,200;1,500;1,600&display=swap');
 
 
 
 /* Changing the main font and background colour */
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-color: #595959;
@@ -14,32 +14,38 @@ body {
 	border: 0px;
 }
 
+.kushi-logo {
+	margin-top: -30px;
+	margin-bottom: -30px;
+}
 
 .container-fluid {
 	background-size: cover;
 }
+
 .section-story{
 	margin-top: 40px;
 }
-/*Story header  */
 
-.Storyheader{font-family: 'Libre Franklin', sans-serif;
+/*Our story, header */
+
+h1 {
+	font-family: 'Libre Franklin', sans-serif;
 	font-color: #595959;
 	background-color: #E6E6FA;
 	padding: 12px;
 	margin: 0px;
-
 }
-/* body of story   */
-.storybody{
+
+/* Our story, body*/
+.paragraph {
 	font-family:'Montserrat', sans-serif;
 	Font-color:#595959;
 	background-color: #E6E6FA; 
 	padding: 10px;
 	margin-top: 0px;
-	
-	
 }
+
 /*button learn more */
 .btn-outline {
   font-family:'Libre Franklin', sans-serif;
@@ -50,6 +56,7 @@ body {
   letter-spacing: 0.05em;
   margin-top: 40px;
 }
+
 /* Changing the background colour for the header */
 
 header {
@@ -61,11 +68,7 @@ header {
 
 .navbar {
 	background-color: #ffffff;
-	font-weight: 600;
-	
-	
-	
-	
+	font-weight: 600;	
 }
 
 /* Effect on social media buttons */
@@ -74,16 +77,13 @@ footer a:hover {
 	opacity: .5;
 }
 
-.animate-charcter
-{
-  
+.animate-charcter{
   background-image: linear-gradient(
     -225deg,
     #4C4C4C 0%,
     #E4E3F2 29%,
     #E4E3F2 67%,
-    #4C4C4C 100%
-  );
+    #4C4C4C 100% );
   background-size: auto auto;
 
   background-size: 200% auto;
@@ -101,4 +101,30 @@ footer a:hover {
   to {
     background-position: 200% center;
   }
+}
+
+
+/*Out Story*/
+
+.holding-lavender {
+	border-radius: 50%;
+}
+
+.section-1 {
+	margin-top: 25px;
+}
+
+.section-2 {
+	margin-top: 50px;
+}
+
+.section-3 {
+	margin-top: 50px;
+}
+
+.section-4 {
+	margin-top: 50px;
+}
+
+.hands-in-lavender {
 }
