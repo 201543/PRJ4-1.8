@@ -161,11 +161,12 @@ footer a:hover {
 .name-team {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
+}
+
+.student-number {
 	margin-top: 15px;
-	margin-bottom: -15px;
+	margin-bottom: -5px;
 }
 
 
-/*footer*/
 	
-}
