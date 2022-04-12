@@ -30,7 +30,7 @@
           <img src="images/KUSHI_LOGO_CLEAR_BACKGROUND.png" alt="Logo-kuchi-purple" width="110" class="kushi-logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">;</span>
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-3 mb-lg-0">
@@ -53,12 +53,24 @@
 					<img src="icon/account-icon.svg" width="20" alt="account">
 					</a>
 				</li>
-				<li class= "nav-item">
-					<a class="nav-link">
-					<img src="icon/shoppingcart-icon.svg" width="20" alt="shopping cart">
-					</a>
+				
+				<li class= "nav-item"> 
+					<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+						<img src="icon/shoppingcart-icon.svg" width="20" alt="shopping cart">
+					</button>
+					
+					<div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel"> 
+						<div class="offcanvas-header">
+							<h1 id="offcanvastoplabel"> Shopping Cart </h1>
+							<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+								<div class="offcanvas-body">
+									<p> Checkout </p>
+								</div>
+						</div>
+					</div> 
 				</li>
 		 </ul>
+			
         </div>
       </div>
     </nav>
@@ -101,7 +113,9 @@
 		</div>
 	</div>
 </section>
-		 
+
+	
+
 <!-- section 4 Our Stories -->
 <section class="section-4">
 	<div class="container-fluid">
