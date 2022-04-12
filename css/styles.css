@@ -24,6 +24,7 @@ body {
 
 .section-story{
 	margin-top: 40px;
+	margin-left:70px;
 }
 
 /*Our story, header */
@@ -34,6 +35,7 @@ h1 {
 	background-color: #E6E6FA;
 	padding: 12px;
 	margin: 0px;
+	
 }
 
 /* Our story, body*/
@@ -42,7 +44,7 @@ h1 {
 	Font-color:#595959;
 	background-color: #E6E6FA; 
 	padding: 10px;
-	margin-top: 0px;
+	grid-column-end: auto;
 }
 
 /*button learn more */
@@ -55,10 +57,17 @@ h1 {
   letter-spacing: 0.05em;
   margin-top: 40px;
 }
+.line-home{
+	margin-top:20px;
+	width: 90%;
+	margin-left: 80px;
+	
+}
+
 
 /* Changing the background colour for the header */
 
-header {
+.header {
 	background-color: #FFFFFF;
 }
 
@@ -103,7 +112,7 @@ footer a:hover {
 }
 
 
-/*Out Story*/
+/*Our Story*/
 
 .holding-lavender {
 	border-radius: 50%;
@@ -167,6 +176,13 @@ footer a:hover {
 	margin-top: 15px;
 	margin-bottom: -5px;
 }
+/*Products*/
 
-
+.header-products{
+	text-align: center;
+	font-family: 'Libre Franklin', sans-serif;
+	font-color: #595959;
+	font-size: 40px
 	
+}
+
