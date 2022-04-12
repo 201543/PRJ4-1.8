@@ -24,7 +24,9 @@ body {
 
 .section-story{
 	margin-top: 40px;
-	margin-left:70px;
+	align-content:center;
+	
+	
 }
 
 /*Our story, header */
