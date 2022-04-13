@@ -178,8 +178,12 @@ footer a:hover {
 .border-right{ 
 	border-left-style: solid;
 	border-right-style: solid;
-	margin-right: 10px;
+	;
 }
+.border-left{
+	border-left-style: solid;
+	border-right-style: solid;
+	}
 
 /*Login Customisation */
 .form-signin {
