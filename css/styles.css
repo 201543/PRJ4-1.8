@@ -262,3 +262,12 @@ footer a:hover {
 .accordion-shipping {
 	margin-top: 50px;
 }
+
+.price {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.header-products {
+	border-radius: 20px;
+}
