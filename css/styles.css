@@ -168,12 +168,17 @@ footer a:hover {
 	margin-bottom: -2px;
 }
 
-/*Products*/
+/*Products on homepage*/
 .header-products{
 	text-align: center;
 	font-family: 'Libre Franklin', sans-serif;
 	font-color: #595959;
 	font-size: 40px
+}
+.border-right{ 
+	border-left-style: solid;
+	border-right-style: solid;
+	margin-right: 10px;
 }
 
 /*Login Customisation */
