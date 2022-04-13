@@ -254,3 +254,11 @@ footer a:hover {
 .product-image-1 {
 	margin-bottom: 60px;
 }
+
+.btn-buy-product {
+	border-radius: 10px;
+}
+
+.accordion-shipping {
+	margin-top: 50px;
+}
