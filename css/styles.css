@@ -244,12 +244,13 @@ footer a:hover {
 /*Product page*/
 .product-small {
 	display: block;
+	min-height: 150px;
+	min-width: 150px;
+	max-height: 150px;
+	max-width: 150px;
+	margin-left: 25px
 }
 
-.product-picture-1 {
-	vertical-align: top
-}
-
-.product-picture-2 {
-	vertical-align: bottom
+.product-image-1 {
+	margin-bottom: 60px;
 }
