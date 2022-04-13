@@ -271,3 +271,9 @@ footer a:hover {
 .header-products {
 	border-radius: 20px;
 }
+
+/* Checkout + shopping cart */
+.checkout-product-1 {
+	max-width: 400px;
+	max-height: 400px;
+}
