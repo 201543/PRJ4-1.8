@@ -278,3 +278,21 @@ footer a:hover {
 	max-height: 200px;
 	margin-bottom: 30px;
 }
+
+/* Origin */
+.section-4 {
+	background-color: #C0D98A;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+.caption-origin {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	margin-top: 10px;
+}
+
+.origin {
+	border-color: black;
+	border: black 10px;
+}
