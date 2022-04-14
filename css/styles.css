@@ -22,6 +22,10 @@ body {
 .container-fluid {
 	background-size: cover;
 }
+.banner{
+	width:100%;
+	height: 100%;
+}
 
 .section-story{
 	margin-top: 40px;
