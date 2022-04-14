@@ -25,7 +25,16 @@ body {
 .banner{
 	width:100%;
 	height: 100%;
+	
 }
+.banner-text{
+   position: absolute; 
+   top: 200px; 
+   left: 900px; 
+   width: 100%;
+
+}
+
 
 .section-story{
 	margin-top: 40px;
@@ -284,7 +293,7 @@ footer a:hover {
 }
 
 /* Origin */
-.section-origin {
+.section-4 {
 	background-color: #C0D98A;
 	padding-top: 50px;
 	padding-bottom: 30px;
