@@ -65,6 +65,7 @@ h1 {
   letter-spacing: 0.05em;
   margin-top: 40px;
 }
+
 .line-home{
 	margin-top:20px;
 	width: 90%;
@@ -94,6 +95,8 @@ footer a:hover {
 .holding-lavender {
 	border-radius: 50%;
 	margin-right: 80px;
+	max-height: 800px;
+	max-width: 800px;
 }
 
 .section-1 {
@@ -115,6 +118,8 @@ footer a:hover {
 .hands-in-lavender {
 	border-radius: 50%;
 	margin-left: 80px;
+	max-height: 580px;
+	max-width: 580px;
 }
 
 .header-story {
@@ -160,6 +165,8 @@ footer a:hover {
 	border-radius: 40%;
 	border: solid 15px;
 	border-color: #E6E6FA;
+	max-height: 300px;
+	max-width: 300px;
 }
 
 .name-team {
@@ -248,11 +255,14 @@ footer a:hover {
 /*Product page*/
 .product-small {
 	display: block;
-	min-height: 150px;
-	min-width: 150px;
 	max-height: 150px;
 	max-width: 150px;
 	margin-left: 25px
+}
+
+.big-product-image {
+	max-height: 500px;
+	max-width: 500px;
 }
 
 .product-image-1 {
@@ -283,7 +293,29 @@ footer a:hover {
 	margin-bottom: 30px;
 }
 
+.section-checkout {
+	margin-top: 40px;
+}
+
 /* Origin */
+.image-product {
+	max-height: 300px;
+	max-width: 300px;
+	min-width:300px;
+}
+
+.icons {
+	max-height: 300px;
+	max-width: 300px;
+	min-width: 300px;
+}
+
+.lavender-origin{
+	max-height: 250px;
+	max-width: 250px;
+	min-width: 250px;
+}
+
 .section-origin {
 	background-color: #C0D98A;
 	padding-top: 50px;
