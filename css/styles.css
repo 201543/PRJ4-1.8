@@ -351,5 +351,6 @@ footer a:hover {
 	
 }
 .content-calender{
-	width: 300%;
+	width: 1000px;
+	align-content: center;
 }
